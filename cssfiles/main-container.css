@@ -1,0 +1,87 @@
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 760px;
+}
+
+.main-container img {
+  height: 760px;
+}
+
+.main-container-info {
+  height: 100%;
+  background-color: black;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.main-container-design-line {
+  height: 1.5px;
+  width: 110px;
+  background-color: #fefefe;
+}
+.main-container-info-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container-info h1 {
+  color: #fefefe;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 16px;
+}
+
+.main-container-info p {
+  color: #fefefe;
+
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.main-container-info-upper-btn button {
+  font-size: 12px;
+  width: 277px;
+  height: 50px;
+  padding: 12px 9px 10px 10px;
+  border: none;
+  outline: none;
+  margin-top: 10px;
+  letter-spacing: 3px;
+  color: #1a1b1b;
+  cursor: pointer;
+}
+
+.main-container-info-upper-btn button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s ease-in-out;
+}
+
+
+.main-container-info-down-btn button {
+  font-size: 12px;
+  width: 559.6px;
+  height: 50px;
+  padding: 12px 30px 10px;
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  letter-spacing: 3px;
+  color: #1a1b1b;
+}
+.main-container-info-down-btn button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    transition: 1s ease-in-out;
+}
